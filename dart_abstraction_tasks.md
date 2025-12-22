@@ -397,11 +397,3 @@ abstract class Service<T extends Entity, R extends Repository<T>> {
   Future<void> removeEntity(int id);
 }
 ```
-
----
-
-Для каждой задачи рекомендуется:
-- Прочитать описание
-- Попытаться решить самостоятельно (20-30 минут)
-- Проверить решение
-- Модифицировать и экспериментировать
